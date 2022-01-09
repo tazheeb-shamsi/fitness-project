@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-position: cover;
+  background-image: url("../attacthments/bgs.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.form-groupp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 950px;
+  padding-top: 30px;
+  border-radius: 0.3rem;
+}
+
+.btn {
+  color: white;
+  height: 65px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #a632b3;
+  border-radius: 25px;
+  display: block;
+  width: 23%;
+}
+
+.btn:hover {
+  background-color: #ed3095;
+  color: white;
+}
+
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+}
+.smallfont {
+  font-size: 12px;
+}
+.heading .h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aqua;
+  font-weight: 200;
+}

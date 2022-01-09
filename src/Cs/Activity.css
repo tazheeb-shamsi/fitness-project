@@ -1,0 +1,33 @@
+/* .form-groupp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  padding-top: 30px;
+  border-radius: 0.3rem;
+} */
+
+.btn {
+  color: white;
+  height: 65px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #a632b3;
+  border-radius: 25px;
+  display: block;
+  width: 23%;
+}
+
+.btn:hover {
+  background-color: #ed3095;
+  color: white;
+}
+
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  color: "white";
+}
+.smallfont {
+  font-size: 12px;
+}
