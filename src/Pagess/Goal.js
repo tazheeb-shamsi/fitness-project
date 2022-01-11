@@ -1,34 +1,24 @@
 import React from 'react'
-// import logo from '../attacthments/logo.png';
+import logo from '../attacthments/android-chrome-192x192.png';
 import "../Cs/Goal.css";
-import bgimg from "../attacthments/img1.png"
-import {Link} from "react-router-dom"
+import bgimg from "../attacthments/download.png"
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
 
 function Goal() {
   return (
     <>
 
-      <div style={{ border: "2px solid red", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100vh", padding: "0 15px 0" }}>
+      <div style={{ backgroundImage: `url(${bgimg})`,backgroundSize:"cover",border: "2px solid red", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100vh"}}>        
 
 
+          <div >
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }} >
+              <img style={{ height: "100px", width: "100px" }} src={logo} alt="logo" />
+            </div>
+            <div style={{ color: "white", display: "flex", alignItems: "center", justifyContent: "center" }} className="display-4"> 
 
-        <div style={{
-          backgroundImage: `url(${bgimg})`, margin: "20%", padding: "0px",
-          display: "flex", justifyContent: "center", alignItems: "center",
-          border: "2px solid grey",
-          borderRadius: " 25px", width: "300px", height: "90%"
-        }}>
-
-
-          {/* <div style={{ display: "flex", alignItem: "center", justifyContent: "center" }} >
-              <img style={{ height: "55px", width: "55px" }} src={logo} alt="logo" />
-            </div> */}
-
-
-          <div>
-            <div style={{ color: "white", display: "flex", alignItems: "center", justifyContent: "center" }} className="heading">
-
-              <h3> WHAT'S YOUR <br />GOAL</h3>
+              <h3 className='py-5'> WHAT'S YOUR <br />GOAL?</h3>
             </div>
 
 
@@ -50,7 +40,7 @@ function Goal() {
                   type="submit" className="btn mt-5"><a href="/Activity">NEXT</a></button>
               </div> */}
           </div>
-        </div>
+        
 
       </div>
 
