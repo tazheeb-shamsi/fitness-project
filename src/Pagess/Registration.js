@@ -11,21 +11,16 @@ function Registration() {
 
   return (
 
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100%" }}>
-      {/* <div style={{ border: "2px solid yellow", width: "31.83%", height: "100%" }}></div>
-      <div style={{ border: "2px solid blue", display: "flex", width: "36.33%", height: "100%" }}> */}
-
-
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+      
       <div className="signup-form" >
         <div >
-
-
 
           <form action="/examples/actions/confirmation.php" method="post">
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img style={{ height: "55px", width: "55px" }} src={logo} alt="logo" />
             </div>
-            <h2>Create an Account</h2>
+            <h2 style={{color:"black"}}>Create an Account</h2>
             <p className="hint-text"><h5>Sign up with your social media account or email address</h5></p>
             <div style={{ display: "flex", flexDirection: "column" }} className="social-btn text-center">
 
@@ -57,17 +52,15 @@ function Registration() {
 
           </form>
 
-          <div className="text-center"> Already have an account?<a className="mx-3" href="/Login">Login here</a></div>
-
-
+          <div style={{color:"black"}} className="text-center my-1 "> Already have an account?<a className="mx-3" href="/Login">Login here</a></div>
 
         </div >
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> */}
 
 
 

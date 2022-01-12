@@ -10,7 +10,7 @@ function Login() {
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0 15px 0" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0 15px 0" ,width:"100%", height:"100vh"}}>
         <div className="login-form">
           <form action="/examples/actions/confirmation.php" method="post">
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -32,7 +32,7 @@ function Login() {
               <button style={{ backgroundColor: "#ed3095", border: "0px solid black" }} type="submit" className="btn btn-success btn-lg btn-block login-btn">Sign in</button>
             </div>
           </form>
-          <div className="text-center"><span style={{ color: "white" }} >Don't have an account?</span> <a href="/Registration">Sign up here</a></div>
+          <div className="text-center"><span style={{ color: "black" }} >Don't have an account?</span> <a href="/Registration">Sign up here</a></div>
         </div>
 
 

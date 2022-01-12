@@ -1,4 +1,7 @@
-
+/* html,body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+} */
 .btn {
   color: white;
   height: 65px;

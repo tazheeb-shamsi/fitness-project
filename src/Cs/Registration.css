@@ -1,5 +1,8 @@
 /* registration page */
-
+html,body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 .signup-form {
   width: "480px";
   height: "100px";

@@ -21,15 +21,16 @@ function Goal() {
               <h3 className='py-5'> WHAT'S YOUR <br />GOAL?</h3>
             </div>
 
-
+<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <div className="form-groupp mt-1">
-            <button style={{ color: "white", borderRadius: "70px" }}
-                type="submit" className="btn ">LOOSE WEIGHT <p className="smallfont">Get lean fast and healthy </p></button>
+            <button 
+                type="submit" className="btn "><a style={{ textDecoration: "none", color: "white" }} href="/Activity">LOOSE WEIGHT <p className="smallfont">Get lean fast and healthy </p></a></button>
+            </div>
             </div>
 
-            <div >
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }} >
               <div className="form-groupp mt-1">
-              <button style={{ color: "white", borderRadius: "70px" }}
+              <button
                   type="submit" className="btn ">GET LEAN <p className="smallfont">Tone up and get in better shape </p></button>
               </div>
             </div>

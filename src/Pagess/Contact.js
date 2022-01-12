@@ -7,10 +7,10 @@ import Footer from '../Components/Footer'
 function Contact() {
      return (
           <div><Navbar />
-               <div style={{ color: "white", display: "flex", alignItems: "center", justifyContent: "center", border: "3px solid red", width: "100%", height: "100vh" }}>
+               <div style={{ color: "black", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "100vh" }}>
 
                     <div style={{
-                         color: "white", display: "flex", alignItems: "center", justifyContent: "center"
+                         color: "Black", display: "flex", alignItems: "center", justifyContent: "center"
                     }}>
                          <div className="wrapper">
                               <div className="overlay">
@@ -23,18 +23,18 @@ function Contact() {
                                                        <div className="col-md-6">
                                                             <div className="mt-5 text-center px-3">
                                                                  <div className="d-flex flex-row alignItems-center"> <span className="icons"><FaMapMarkerAlt color="black" size="1.3em" /></span>
-                                                                      <div className="address text-left"> <span>Address</span>
-                                                                           <p> West Bengal ,India</p>
+                                                                      <div className="address text-left"> <span >Address</span>
+                                                                           <p style={{ color:"black"}}> West Bengal ,India</p>
                                                                       </div>
                                                                  </div>
                                                                  <div className="d-flex flex-row alignItems-center mt-3"> <span className="icons"><FaPhone color="black" size="1.3em" /></span>
                                                                       <div className="address text-left"> <span>e-mail</span>
-                                                                           <p>info@nargeeks.com</p>
+                                                                           <p style={{ color:"black"}}>info@nargeeks.com</p>
                                                                       </div>
                                                                  </div>
                                                                  <div className="d-flex flex-row alignItems-center mt-3"> <span className="icons"><FaEnvelope color="black" size="1.3em" /></span>
                                                                       <div className="address text-left"> <span>Phone</span>
-                                                                           <p>+91 4143276543
+                                                                           <p style={{ color:"black"}}>+91 4143276543
 
                                                                            </p>
                                                                       </div>

@@ -1,5 +1,7 @@
 
-
+.body{
+  background-color: black;
+}
 .contact-us {
   display: block;
   align-items: center;

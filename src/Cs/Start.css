@@ -3,34 +3,90 @@
   padding: 0;
   box-sizing: border-box;
 }
-.img{
+html,body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#video {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+.imgbg{
 width: 100%;
-height: 100vh;
+height: auto;
 background-size: cover;
 }
-
+.mobdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+@media  only screen and  (min-width: 576px) { 
+  .mobdiv{
+    width: 100% ;
+    height: auto;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-   
+@media  only screen and  (min-width: 768px) { 
+  .mobdiv{
+    width: 100% ;
+    height: 100%;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-   
+@media  only screen and  (min-width: 992px) { 
+  .mobdiv{
+    width: 100% ;
+    height: 100%;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-   
+@media  only screen and  (min-width: 1200px) { 
+ 
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-   
+@media  only screen and  (min-width: 1400px) { 
+ 
+}
+
+
+@media only screen and (min-width: 790px) { 
+  
+   .firstdiv{
+     display: block;
+   }
+
+   .visiblesecond{
+     display: none;
+   }
+   .mobdiv{
+    width: 100% ;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* body{
+    background-color: rgb(0, 255, 55);
+  } */
+  .seconddiv{
+    display: block;
+  }
+
+  .visiblefirst{
+    display: none;
+  }
+
 }
